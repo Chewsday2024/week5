@@ -1,0 +1,39 @@
+.w296 {
+  width: 296px;
+}
+
+.line {
+  border-left: 5px solid rgba(0, 0, 0, 0);
+}
+
+.word {
+  display: inline-block;
+}
+
+.box:hover {
+  border-left: 5px solid #198754;
+}
+
+.box:hover span {
+  color: #198754;
+}
+
+.box:hover .word {
+  color: #198754;
+}
+
+.w40 {
+  width: calc(40% - 10px);
+}
+
+.w60 {
+  width: calc(60% - 10px);
+}
+
+.t-i {
+  text-indent: 3%;
+}
+
+.t-i2 {
+  text-indent: 5%;
+}
